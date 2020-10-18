@@ -1,2 +1,2 @@
 # rb_message_writer
-General message writer for writing Airflow output to some sink
+Writes messages, usually during ETL and usually within Airflow
