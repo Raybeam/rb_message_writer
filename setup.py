@@ -18,16 +18,16 @@ URL = "https://github.com/Raybeam/rb_message_writer"
 EMAIL = "msadler@raybeam.com"
 AUTHOR = "Michael Sadler"
 REQUIRES_PYTHON = ">=3.6.0"
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    # 'requests', 'maya', 'records',
+    # "apache-airflow",
 ]
 
 # What packages are optional?
 EXTRAS = {
-    # 'fancy feature': ['django'],
+    "bigquery": ["google-cloud-bigquery", "apache-airflow"],
 }
 
 # The rest you shouldn't have to touch too much :)
